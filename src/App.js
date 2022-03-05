@@ -6,6 +6,7 @@ import {
    Route } from "react-router-dom";
 
 import Login from './components/Login.js'
+import Header from './components/Header.js'
 
 
 
@@ -13,8 +14,9 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Header/>
         <Switch>
-          
+
           <Route exactPath="/">
           <Login/>
           </Route>
