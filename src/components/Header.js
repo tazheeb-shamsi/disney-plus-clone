@@ -1,7 +1,20 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import {auth, provider} from '../firebase';
 
-const Header = () => {
+const Header = (props) => {
+
+    const handleAuth = () {
+        auth
+            .signInWithPopup(provider)
+            .then((result) => {
+                console.log(result);
+            })
+            .catch((err) => {
+                alert(err.message);
+            });
+    };
+
   return (
     <Nav>
       <Logo>
@@ -33,7 +46,7 @@ const Header = () => {
               <span>SERIES</span>
             </a>
           </NavMenu>
-          <Login>LOGIN</Login>
+          <Login onClick={handleAuth}>LOGIN</Login>
        </Nav>
   )
 }
