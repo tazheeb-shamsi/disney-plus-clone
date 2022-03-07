@@ -24,6 +24,7 @@ const Login = () => {
 const Container = styled.section`
   overflow: hidden;
   display: flex;
+  height:100vh ;
   flex-direction: column;
   text-align: center;
 `;
