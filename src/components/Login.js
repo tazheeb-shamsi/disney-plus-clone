@@ -67,7 +67,6 @@ const CTAlogo1 = styled.img`
   margin-bottom: 12px;
   max-width: 600px;
   min-height: 1px;
-  margin-left: 30px;
   display: block;
   width: 100%;
 `;
@@ -98,7 +97,6 @@ const Description = styled.p`
 
 const CTAlogo2 = styled.img`
   max-width: 600px;
-  margin-left: 20px;
   margin-bottom: 20px;
   display: inline-block;
   vertical-align: bottom;
