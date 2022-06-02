@@ -5,7 +5,7 @@ import 'firebase/compat/storage';
 
 const firebaseConfig = {
   apiKey: "AIzaSyDSM52yQ8qZpOPQd0x9IpTCBiDZ280-rqA",
-  authDomain: "https://disney-plus-clone-sigma.vercel.app",
+  authDomain: "disney-clone-gt.firebaseapp.com",
   projectId: "disney-clone-gt",
   storageBucket: "disney-clone-gt.appspot.com",
   messagingSenderId: "507732554521",
