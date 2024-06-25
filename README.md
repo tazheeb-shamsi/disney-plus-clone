@@ -1,8 +1,6 @@
 # Disney Plus Clone Readme
 
-## <a href="https://disney-clone-gt.web.app/" target="_blank">LIVE DEMO</a>
-
-### 🔴 Watch Disney+ clone <a href='https://disney-clone-gt.web.app/'>HERE</a>
+### 🔴 Watch Disney+ clone 
 
 ## Description
 This is the ReactJS Disney Plus Clone, the perfect project to put on your portfolio by Clever Programmer.
